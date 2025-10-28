@@ -1,2 +1,4 @@
 *.zip
 *.png
+.vscode/
+*.exe

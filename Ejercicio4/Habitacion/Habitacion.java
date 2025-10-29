@@ -1,6 +1,6 @@
-package Habitacion;
+package Ejercicio4.Habitacion;
 
-import ServicioExtra.ServicioExtra;
+import Ejercicio4.ServicioExtra.*;;
 
 public class Habitacion {
     private int numero;

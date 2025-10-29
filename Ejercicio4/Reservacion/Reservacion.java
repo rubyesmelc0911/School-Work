@@ -1,7 +1,7 @@
-package Reservacion;
+package Ejercicio4.Reservacion;
 
-import Huesped.Huesped;
-import Habitacion.Habitacion;
+import Ejercicio4.Habitacion.*;
+import Ejercicio4.Huesped.*;
 
 public class Reservacion {
     private int idReservacion;

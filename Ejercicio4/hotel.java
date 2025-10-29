@@ -1,7 +1,10 @@
-import Habitacion.Habitacion;
-import Huesped.Huesped;
-import Reservacion.Reservacion;
-import ServicioExtra.ServicioExtra;
+package Ejercicio4;
+
+import Ejercicio4.Habitacion.*;
+import Ejercicio4.Huesped.*;
+import Ejercicio4.Reservacion.*;
+import Ejercicio4.ServicioExtra.*;
+
 public class hotel {
     public static void main(String[] args) {
         // Crear servicios extras

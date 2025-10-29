@@ -1,4 +1,4 @@
-package arreglos;
+package arreglos_dinamicos;
 import java.util.ArrayList;
 
 public class dynamicArray {

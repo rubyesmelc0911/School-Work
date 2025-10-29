@@ -1,4 +1,4 @@
-package Huesped;
+package Ejercicio4.Huesped;
 
 public class Huesped {
     //atributos

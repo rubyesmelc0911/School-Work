@@ -1,6 +1,6 @@
 package Herencia;
 
-public class persona {
+public abstract class persona {
     protected String nombre;
     protected int edad;
     protected String id;
@@ -8,6 +8,22 @@ public class persona {
     protected String apellidos;
     protected String telefono;
     protected String direccion;
+
+    public persona() {
+
+    }
+
+    public persona(String nombre, int edad, String id, String CURP, String apellidos, String telefono, String direccion) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.id = id;
+        this.CURP = CURP;
+        this.apellidos = apellidos;
+        this.telefono = telefono;
+        this.direccion = direccion;
+    }
+
+    public abstract String mostrarDatos();
 
     public void setNombre(String nombre) {
         this.nombre = nombre;

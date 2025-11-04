@@ -6,11 +6,16 @@ public class estudiante extends persona{
     private String programa;
     private int semestre;
 
-    public estudiante(String boleta, String programa, int semestre){
+    public estudiante(String nombre, int edad, String id, String CURP, String apellidos, String telefono, String direccion,String boleta, String programa, int semestre){
+        super(nombre, edad, id, CURP, apellidos, telefono, direccion);
         this.boleta = boleta;
         this.programa = programa;
         this.semestre = semestre;
     }
+
+    public estudiante(){
+    }
+
     public void setBoleta(String boleta){
         this.boleta = boleta;
     }
@@ -28,5 +33,19 @@ public class estudiante extends persona{
     }
     public int getSemestre(){
         return this.semestre;
+    }
+
+    @Override
+    public String mostrarDatos(){
+        return "Nombre: " + getNombre() + "\n" +
+               "Edad: " + getEdad() + "\n" +
+               "ID: " + getId() + "\n" +
+               "CURP: " + getCURP() + "\n" +
+               "Apellidos: " + getApellidos() + "\n" +
+               "Teléfono: " + getTelefono() + "\n" +
+               "Dirección: " + getDireccion() + "\n" +
+               "Boleta: " + getBoleta() + "\n" +
+               "Programa: " + getPrograma() + "\n" +
+               "Semestre: " + getSemestre();
     }
 }

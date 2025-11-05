@@ -1,7 +1,6 @@
-package Herencia;
-import Herencia.persona;
-import Herencia.estudiante.estudiante;
-import Herencia.Empleado.empleado;
+package HerenciaPolimorfismo;
+import HerenciaPolimorfismo.estudiante.estudiante;
+import HerenciaPolimorfismo.Empleado.empleado;
 public class mainHerencia {
     public static void main(String[] args) {
         persona[] personas = new persona[5];

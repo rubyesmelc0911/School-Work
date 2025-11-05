@@ -1,5 +1,5 @@
-package Herencia.estudiante;
-import Herencia.persona;
+package HerenciaPolimorfismo.estudiante;
+import HerenciaPolimorfismo.persona;
 
 public class estudiante extends persona{
     private String boleta;
@@ -7,7 +7,7 @@ public class estudiante extends persona{
     private int semestre;
 
     public estudiante(String nombre, int edad, String id, String CURP, String apellidos, String telefono, String direccion,String boleta, String programa, int semestre){
-        super(nombre, edad, id, CURP, apellidos, telefono, direccion);
+        super(nombre, edad, id, CURP, apellidos, telefono, direccion); // Llamada al constructor de la clase padre
         this.boleta = boleta;
         this.programa = programa;
         this.semestre = semestre;

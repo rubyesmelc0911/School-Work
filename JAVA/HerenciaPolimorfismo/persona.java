@@ -1,4 +1,4 @@
-package Herencia;
+package HerenciaPolimorfismo;
 
 public abstract class persona {
     protected String nombre;
@@ -23,7 +23,7 @@ public abstract class persona {
         this.direccion = direccion;
     }
 
-    public abstract String mostrarDatos();
+    public abstract String mostrarDatos(); // Método abstracto para ser implementado en las clases hijas
 
     public void setNombre(String nombre) {
         this.nombre = nombre;

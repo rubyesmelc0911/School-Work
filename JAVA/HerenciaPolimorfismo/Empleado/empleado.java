@@ -1,5 +1,5 @@
-package Herencia.Empleado;
-import Herencia.persona;
+package HerenciaPolimorfismo.Empleado;
+import HerenciaPolimorfismo.persona;
 
 public class empleado extends persona{
     
@@ -50,7 +50,7 @@ public class empleado extends persona{
     }
 
     //mostrar
-     @Override
+    @Override //sobrescritura de metodo
     public String mostrarDatos(){
         return "Nombre: " + getNombre() + "\n" +
                "Edad: " + getEdad() + "\n" +

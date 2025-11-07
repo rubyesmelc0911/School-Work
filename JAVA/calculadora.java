@@ -13,7 +13,7 @@ public class calculadora {
         this.num2 =  ob.num2;
     }
 
-    public void setNumbers(int n1, int n2){ //setter
+    public void setNumbers(double n1, double n2){ //setter
         this.num1 = n1;
         this.num2 = n2;
     }
@@ -64,7 +64,7 @@ public class calculadora {
             n1 = Datos.nextDouble();
             System.out.println("Numero 2:");
             n2 = Datos.nextDouble();
-        
+            calc.setNumbers(n1, n2);
             if(opc >= 1 && opc <= 4){
                 switch(opc){
                     case 1 ->System.out.println("La suma es:"+ calc.suma());
@@ -78,7 +78,7 @@ public class calculadora {
             }
         }while(opc!=5);
        
-
+        Datos.close();
         System.gc(); //destructor
       
     }
